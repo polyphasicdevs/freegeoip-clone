@@ -6,9 +6,10 @@
  * @link http://freegeoip.net/ For more info
  * @author Polyphasic Devs <info@polyphasicdevs.com>
  */
-define('FREEGEOIP_URL', 'https://freegeoip-clone.herokuapp.com/');
-define('GEO_COOKIE', '_geo_ip');
-
+//define('FREEGEOIP_URL', 'https://freegeoip-clone.herokuapp.com/');
+//define('GEO_COOKIE', '_geo_ip');
+define('FREEGEOIP_URL', 'http://api.ipstack.com/');
+//define('GEO_COOKIE', '_geo_ip');
 if (!class_exists('freeGeoIP')) {
 
     class freeGeoIP {
@@ -181,7 +182,7 @@ if (!class_exists('freeGeoIP')) {
 if (!function_exists("http_callback_handler")) {
 
     function http_callback_handler($ip, $format = "json") {
-        $url = FREEGEOIP_URL . $format . '/' . $ip;
+        $url = FREEGEOIP_URL . $ip . "?access_key=bc4120a48c3b4aa8e4118a950e24a9aa";
         $result = geoGet();
         if (empty($result)) {
             if (_isCurl()) {
