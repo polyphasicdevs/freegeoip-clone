@@ -1,9 +1,9 @@
 === Country IP Specific Redirections ===
-Contributors: sahilbabu
-Donate link: http://egooty.com/donate
+Contributors: James Colby
+
 Tags: admin, GeoIP, geolocation, localization, url, Country, Redirect, Block, Post, locator, page, ip, ip-address, block, block countries, block country, country, geo, geo blocking, geo-ip, visitors, visits, login, wp-admin, geo target, Geo-Location,
 Requires at least: 3.0.0
-Tested up to: 4.7.2
+Tested up to: 5.3.2
 Stable tag: 3.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -19,13 +19,6 @@ The plugin automatically detects the country of your visitors and let's you driv
 
 = Attribution =
 
-This package includes third party public HTTP API Service to search the geolocation of IP addresses.
-See [API Documentation](http://freegeoip.net/) for more info.
-Country IP Specific Redirections plugin use browser cookies and client attribution for fast performance. 
-
-Thanks for providing the following great services and REST APIs for free.
-
-* [http://freegeoip.net/](http://freegeoip.net/ "freegeoip.net: FREE IP Geolocation Web Service") (IPv4 / free)
 
 `Features:`
 
@@ -39,20 +32,8 @@ Thanks for providing the following great services and REST APIs for free.
 * Easy backend (Admin) options.
 * Comprehensive Admin Manual
 
-`Up Coming Features:`
 
-* Online users, visits, visitors and page statistics
-* Record statistics on exclusions
-* Export the data to XML, CSV or TSV files
-* Widget to provide information to your users
-* Much more (suggest by community )
-
-`Support`
-We're sorry you're having problem with Country IP Specific Redirections and we're happy to help out.
-
-* [Website of Author](http://egooty.com/ "eGooty")
-* [Author CodeCanyon Profile](https://codecanyon.net/user/devbots "devbots")
-* For more details you can send mail with your suggestions, recommendation to sahil_bwp@yahoo.com
+* [Website of Author](https://PolyphasicDevs.com/ "James")
 
 == Installation ==
 
@@ -69,16 +50,11 @@ To **Install** this `Country IP Specific Redirections` plugin there is no any co
 
 Yes, of course. The main intention to create this plugin to use where user need Mass Redirect.
 
-== Screenshots ==
-
-1. Country IP Specific Redirections Rules
-2. Country IP Specific Redirections Log (Latest 100 entries)
-3. Mass Redirect For Countries Without Rules
-4. No Redirect
-
 
 == Changelog ==
 
+= 3.5 =
+* Changed API backend from a freegeoip clone to IPStack.com
 = 3.2 =
 * fix bug deactivate error
 * additional post types fixed
