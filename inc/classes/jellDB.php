@@ -7,8 +7,8 @@
  *
  * PHP version 5.5.9
  *
- * @author     Mudassar Ali <sahil_bwp@yahoo.com>
- * @copyright  2016 egooty.com
+ * @author     James Colby <info@polyphasicdevs.com>
+ * @copyright  2020 Polyphasic Developers 
  */
 if (!class_exists('jellDB')) {
 
