@@ -1,12 +1,13 @@
+
 <?php
 
 /* Plugin Name: Country IP Specific Redirections
   Plugin URI: http://wordpress.org/extend/plugins/country-ip-specific-redirections/
   Description: The powerful geolocation targeting plugin let's you drive away unwanted traffic. The plugin automatically detects the country of your visitors using ipstack.com's API
-  Version: 1.0
+  Version: 1.1
   Author: Polyphasic Developers (inf@PolyphasicDevs.com)
   Author URI: https://www.PolyphasicDevs.com/
-  @copyright  2018 Polyphasic Developers
+  @copyright  2020 Polyphasic Developers
   License: GPLv2
  */
 
